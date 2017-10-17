@@ -84,7 +84,7 @@ public class ModelSegmentsIntegrationTest extends CommandLineProgramTest {
         runCommandLine(arguments);
     }
 
-    @Test//(enabled = false)
+    @Test(enabled = false)
     public void testWESMatchedNormal() {
         final String[] arguments = {
                 "-" + CopyNumberStandardArgument.DENOISED_COPY_RATIOS_FILE_SHORT_NAME, "/home/slee/working/gatk/TCGA-05-4389-01A-01D-1265-08-gc-corrected.tn.tsv",
